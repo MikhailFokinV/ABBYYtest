@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MainViewController.h
 //  AbbyyTest
 //
 //  Created by Mikhail Fokin on 18.06.15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface MainViewController : UITableViewController
 
 @end
-

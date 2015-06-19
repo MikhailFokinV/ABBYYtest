@@ -10,11 +10,13 @@
 		38F919371B3308EE00EFAC0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F919361B3308EE00EFAC0C /* main.m */; };
 		38F9193A1B3308EE00EFAC0C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F919391B3308EE00EFAC0C /* AppDelegate.m */; };
 		38F9193D1B3308EE00EFAC0C /* AbbyyTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 38F9193B1B3308EE00EFAC0C /* AbbyyTest.xcdatamodeld */; };
-		38F919401B3308EE00EFAC0C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F9193F1B3308EE00EFAC0C /* ViewController.m */; };
 		38F919431B3308EE00EFAC0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38F919411B3308EE00EFAC0C /* Main.storyboard */; };
 		38F919451B3308EE00EFAC0C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38F919441B3308EE00EFAC0C /* Images.xcassets */; };
 		38F919481B3308EE00EFAC0C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38F919461B3308EE00EFAC0C /* LaunchScreen.xib */; };
 		38F919541B3308EE00EFAC0C /* AbbyyTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F919531B3308EE00EFAC0C /* AbbyyTestTests.m */; };
+		38F919621B3309A400EFAC0C /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F919611B3309A400EFAC0C /* MainViewController.m */; };
+		38F919651B330ADE00EFAC0C /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F919641B330ADE00EFAC0C /* Item.m */; };
+		38F9196E1B330BB800EFAC0C /* ItemCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F9196D1B330BB800EFAC0C /* ItemCategory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,17 +33,21 @@
 		38F919311B3308EE00EFAC0C /* AbbyyTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AbbyyTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38F919351B3308EE00EFAC0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38F919361B3308EE00EFAC0C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		38F919381B3308EE00EFAC0C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		38F919391B3308EE00EFAC0C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		38F919381B3308EE00EFAC0C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = AbbyyTest/AppDelegate.h; sourceTree = "<group>"; };
+		38F919391B3308EE00EFAC0C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = AbbyyTest/AppDelegate.m; sourceTree = "<group>"; };
 		38F9193C1B3308EE00EFAC0C /* AbbyyTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AbbyyTest.xcdatamodel; sourceTree = "<group>"; };
-		38F9193E1B3308EE00EFAC0C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		38F9193F1B3308EE00EFAC0C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		38F919421B3308EE00EFAC0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		38F919441B3308EE00EFAC0C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		38F919441B3308EE00EFAC0C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = AbbyyTest/Images.xcassets; sourceTree = "<group>"; };
 		38F919471B3308EE00EFAC0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		38F9194D1B3308EE00EFAC0C /* AbbyyTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AbbyyTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38F919521B3308EE00EFAC0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38F919531B3308EE00EFAC0C /* AbbyyTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbbyyTestTests.m; sourceTree = "<group>"; };
+		38F919601B3309A400EFAC0C /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		38F919611B3309A400EFAC0C /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		38F919631B330ADE00EFAC0C /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		38F919641B330ADE00EFAC0C /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		38F9196C1B330BB800EFAC0C /* ItemCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemCategory.h; sourceTree = "<group>"; };
+		38F9196D1B330BB800EFAC0C /* ItemCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemCategory.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +71,18 @@
 		38F919281B3308EE00EFAC0C = {
 			isa = PBXGroup;
 			children = (
+				38F9196C1B330BB800EFAC0C /* ItemCategory.h */,
+				38F9196D1B330BB800EFAC0C /* ItemCategory.m */,
+				38F919631B330ADE00EFAC0C /* Item.h */,
+				38F919641B330ADE00EFAC0C /* Item.m */,
+				38F919601B3309A400EFAC0C /* MainViewController.h */,
+				38F919611B3309A400EFAC0C /* MainViewController.m */,
+				38F919411B3308EE00EFAC0C /* Main.storyboard */,
+				38F919381B3308EE00EFAC0C /* AppDelegate.h */,
+				38F919391B3308EE00EFAC0C /* AppDelegate.m */,
+				38F919441B3308EE00EFAC0C /* Images.xcassets */,
+				38F919461B3308EE00EFAC0C /* LaunchScreen.xib */,
+				38F9193B1B3308EE00EFAC0C /* AbbyyTest.xcdatamodeld */,
 				38F919331B3308EE00EFAC0C /* AbbyyTest */,
 				38F919501B3308EE00EFAC0C /* AbbyyTestTests */,
 				38F919321B3308EE00EFAC0C /* Products */,
@@ -83,14 +101,6 @@
 		38F919331B3308EE00EFAC0C /* AbbyyTest */ = {
 			isa = PBXGroup;
 			children = (
-				38F919381B3308EE00EFAC0C /* AppDelegate.h */,
-				38F919391B3308EE00EFAC0C /* AppDelegate.m */,
-				38F9193E1B3308EE00EFAC0C /* ViewController.h */,
-				38F9193F1B3308EE00EFAC0C /* ViewController.m */,
-				38F919411B3308EE00EFAC0C /* Main.storyboard */,
-				38F919441B3308EE00EFAC0C /* Images.xcassets */,
-				38F919461B3308EE00EFAC0C /* LaunchScreen.xib */,
-				38F9193B1B3308EE00EFAC0C /* AbbyyTest.xcdatamodeld */,
 				38F919341B3308EE00EFAC0C /* Supporting Files */,
 			);
 			path = AbbyyTest;
@@ -222,9 +232,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38F9196E1B330BB800EFAC0C /* ItemCategory.m in Sources */,
 				38F9193A1B3308EE00EFAC0C /* AppDelegate.m in Sources */,
+				38F919621B3309A400EFAC0C /* MainViewController.m in Sources */,
 				38F919371B3308EE00EFAC0C /* main.m in Sources */,
-				38F919401B3308EE00EFAC0C /* ViewController.m in Sources */,
+				38F919651B330ADE00EFAC0C /* Item.m in Sources */,
 				38F9193D1B3308EE00EFAC0C /* AbbyyTest.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,6 +266,7 @@
 				38F919421B3308EE00EFAC0C /* Base */,
 			);
 			name = Main.storyboard;
+			path = AbbyyTest;
 			sourceTree = "<group>";
 		};
 		38F919461B3308EE00EFAC0C /* LaunchScreen.xib */ = {
@@ -262,6 +275,7 @@
 				38F919471B3308EE00EFAC0C /* Base */,
 			);
 			name = LaunchScreen.xib;
+			path = AbbyyTest;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -438,7 +452,8 @@
 				38F9193C1B3308EE00EFAC0C /* AbbyyTest.xcdatamodel */,
 			);
 			currentVersion = 38F9193C1B3308EE00EFAC0C /* AbbyyTest.xcdatamodel */;
-			path = AbbyyTest.xcdatamodeld;
+			name = AbbyyTest.xcdatamodeld;
+			path = AbbyyTest/AbbyyTest.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
